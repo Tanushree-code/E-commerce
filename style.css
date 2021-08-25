@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+.hover:hover{
+    background-color:transparent;
+    border-radius: 10px;
+    background-color: #198754;
+    transition: background-color 500ms ease;
+}
+.hover{
+    margin-left: 30px;
+}
+.drop{
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+.drop:hover{
+    background: #198754;
+    transform: translate(2px);
+}
